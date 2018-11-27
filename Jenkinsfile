@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
         	steps {
-        	    sh 'mvn test -Djdk.net.URLClassPath.disableClassPathURLCheck=true'        	    
+        	    sh 'mvn test'        	    
         	}           
         }        
     }    
